@@ -10,7 +10,7 @@
 source:         _app
 destination:    _site
 timezone:       America/Los_Angeles
-permalink:      /:title.html
+permalink:      /:categories/:title.html
 markdown:       kramdown
 highlighter:    rouge
 include:        ["_pages"]
